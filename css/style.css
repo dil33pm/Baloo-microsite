@@ -20,65 +20,73 @@
 /* Gurmukhi */
 @font-face {
 	font-family: BalooPaaji;
-	src: url(../fonts/BalooPaaji.otf);
+	src: url(../fonts/BalooPaaji.ttf);
 	font-weight: 400;
 }
 /* Bangla */
 @font-face {
 	font-family: BalooDa;
-	src: url(../fonts/BalooDa.otf);
+	src: url(../fonts/BalooDa.ttf);
 	font-weight: 400;
 }
 /* Gujarati */
 @font-face {
 	font-family: BalooBhai;
-	src: url(../fonts/BalooBhai.otf);
+	src: url(../fonts/BalooBhai.ttf);
 	font-weight: 400;
 }
 /* Odiya */
 @font-face {
 	font-family: BalooBhaina;
-	src: url(../fonts/BalooBhaina.otf);
+	src: url(../fonts/BalooBhaina.ttf);
 	font-weight: 400;
 }
 /* Malayalam */
 @font-face {
 	font-family: BalooChettan;
-	src: url(../fonts/BalooChettan.otf);
+	src: url(../fonts/BalooChettan.ttf);
 	font-weight: 400;
 }
 /* Kannada */
 @font-face {
 	font-family: BalooTamma;
-	src: url(../fonts/BalooTamma.otf);
+	src: url(../fonts/BalooTamma.ttf);
 	font-weight: 400;
 }
 /* Telugu */
 @font-face {
 	font-family: BalooTammudu;
-	src: url(../fonts/BalooTammudu.otf);
+	src: url(../fonts/BalooTammudu.ttf);
 	font-weight: 400;
 }
 /* Tamil */
 @font-face {
 	font-family: BalooThambi;
-	src: url(../fonts/BalooThambi.otf);
+	src: url(../fonts/BalooThambi.ttf);
 	font-weight: 400;
 }
 /* Devnagiri */
 @font-face {
 	font-family: Baloo;
-	src: url(../fonts/Baloo.otf);
+	src: url(../fonts/Baloo.ttf);
 	font-weight: 400;
 }
 
 /* ---------------------------- MAIN --------------------------*/
-
+html, body {
+	font-family: Baloo;
+}
+h1 {
+	font-size: 72px;
+	font-weight: 400;
+	color:#655b52;
+}
 /* Main */
 .fontDetails {
 	z-index: 2;
 	margin-top: 30%;
 	color:#FFF;
+	font-size: 18px;
 }
 
 .fontTitle {
@@ -90,6 +98,124 @@
 }
 
 /* ---------------------------- Individual fonts --------------------------*/
+#aboutBaloo {
+	background-color:#dfd7bd;
+	min-height: 40em;
+	height: auto;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+#balooHeading {
+	margin-top:10%;
+}
+
+#balooDetails{
+	color:#655b52;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#hLine {
+	background-color:#ccc3a5;
+	min-height: 2%;
+	position: absolute;
+	margin-top: 16.7%;
+}
+
+#vLine {
+	background-color:#ccc3a5;
+	min-height: 90%;
+	min-width: 1%;
+	position: absolute;
+	margin-left: 40%;
+}
+
+#balooShowcase {
+	background-color:#ffffff;
+	min-height: 40em;
+	height: auto;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+#balooDownload {
+	background-color:#ffffff;
+	min-height: 20em;
+	height: auto;
+	padding-top: 8%;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+#balooDownload a {
+	border-style: solid;
+	border-width: 5px;
+	border-color:#f0eee3;
+	color: #b2afa1;
+	padding: 15px;
+	font-size: 24px;
+}
+
+#balooDownload a:hover {
+	border-style: solid;
+	border-width: 5px;
+	border-color:#f0eee3;
+	color: #b2afa1;
+	padding: 15px;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.nosList ul li {
+	margin-top: 5%;
+	color: #c3bba0;
+	font-size: 60px;
+	list-style: none;
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+}
+
+#nos {
+	color: #c3bba0;
+}
+
+.showcaseList ul {
+	margin-top: 10%;
+}
+
+#description {
+	color:#655b52;
+	font-size: 16px;
+	margin-top: 12%;
+}
+
+.showcaseList ul li{
+	color: #14accc;
+	font-size: 60px;
+	margin-right: 9%;
+	list-style: none;
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+}
+
+#hLine2 {
+	background-color:#ccc3a5;
+	min-height: 2%;
+	position: absolute;
+	margin-top: -9%;
+}
+
+#hLine3 {
+	background-color:#ccc3a5;
+	min-height: 2%;
+	position: absolute;
+	margin-top: 4%;
+}
+
+
 #paajiMain {
 	background-color:#14accc;
 	min-height: 40em;
@@ -225,6 +351,113 @@
 	color:#e96077;
 }
 
+#chettanMain {
+	background-color:#14accc;
+	min-height: 40em;
+	height: auto;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.chettan {
+	font-family: BalooChettan;
+	margin:12% 22% auto;
+}
+
+.chettanDetails {
+	font-family: BalooChettan;
+}
+
+#chettanChar {
+	font-family: BalooChettan;
+	color:black;
+	font-size: 1000px;
+	position: absolute;
+	margin-top: -120%;
+	margin-left: -82%;
+	color:#099ab9;
+}
+
+#tammuduMain {
+	background-color:#ff778d;
+	min-height: 40em;
+	height: auto;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.tammudu {
+	font-family: BalooTammudu;
+	margin:12% 25% auto;
+}
+
+.tammuduDetails {
+	font-family: BalooTammudu;
+}
+
+#tammuduChar {
+	font-family: BalooTammudu;
+	color:black;
+	font-size: 1000px;
+	position: absolute;
+	margin-top: -120%;
+	margin-left: -109%;
+	color:#e96077;
+}
+
+#thambiMain {
+	background-color:#5674f7;
+	min-height: 40em;
+	height: auto;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.thambi {
+	font-family: BalooThambi;
+	margin:12% 28% auto;
+}
+
+.thambiDetails {
+	font-family: BalooThambi;
+}
+
+#thambiChar {
+	font-family: BalooThambi;
+	color:black;
+	font-size: 1000px;
+	position: absolute;
+	margin-top: -90%;
+	margin-left: -80%;
+	color:#3a53be;
+}
+
+#hindiMain {
+	background-color:#e2c43a;
+	min-height: 40em;
+	height: auto;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.hindi {
+	font-family: Baloo;
+	margin:12% 28% auto;
+}
+
+.hindiDetails {
+	font-family: Baloo;
+}
+
+#hindiChar {
+	font-family: Baloo;
+	color:black;
+	font-size: 1000px;
+	position: absolute;
+	margin-top: -120%;
+	margin-left: -90%;
+	color:#d1b42f;
+}
 /* ---------------------------- Media queries --------------------------*/
 
 /* Small devices (tablets, 768px and up) */
@@ -233,30 +466,44 @@
 		margin-top:40%;
 	}
 	#paajiChar {
-		position: absolute;
-		margin-top: -110%;
+		margin-top: -40%;
 		margin-left: -10%;
 	}
 	#banglaChar {
-		position: absolute;
-		margin-top: -100%;
+		margin-top: -20%;
 		margin-left: 1%;
 	}
 	#bhainaChar {
-		position: absolute;
-		margin-top: -100%;
+		margin-top: -20%;
 		margin-left: 1%;
 	}
 	#bhaiChar {
-		position: absolute;
-		margin-top: -110%;
+		margin-top: -20%;
 		margin-left: -5%;
 	}
 	#tammaChar {
-		position: absolute;
-		margin-top: -120%;
+		margin-top: -40%;
 		margin-left: 1%;
 	}
+	#chettanChar {
+		margin-top: -60%;
+		margin-left: 1%;
+	}
+	#tammuduChar {
+		margin-top: -40%;
+		margin-left: 1%;
+	}
+	#thambiChar {
+		margin-top: -50%;
+		margin-left: 1%;
+	}
+	#hindiChar {
+		margin-top: -40%;
+		margin-left: 1%;
+	}
+	.paaji {
+		margin-left:30%;
+	}	
 	.tamma {
 		margin-left:12%;
 	}
@@ -266,10 +513,45 @@
 	.bhai {
 		margin-left:30%;
 	}
+	.hindi {
+		margin-left: 22%;
+	}
+	.thambi {
+		margin-left: 22%;
+	}
+	.tammudu {
+		margin-left: 5%;
+	}
+	.tamma {
+		margin-left: 22%;
+	}
+	.bangla {
+		margin-left: 25%;
+	}
+	#hLine {
+		margin-top: 21.5%;
+	}
+	#vLine {
+		min-width: 1.5%;
+		margin-left: 38%;
+	}
+	#hLine2 {
+		margin-top: -15%;
+	}
+
+	#hLine3 {
+		margin-top: 4%;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+@media (max-width:1920px) { 
+	#hLine {
+		margin-top: 15%;
+	} 
+}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width: @screen-lg-min) { 
+
+}
