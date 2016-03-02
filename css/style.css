@@ -400,7 +400,7 @@ h1 {
 	color:black;
 	font-size: 1000px;
 	position: absolute;
-	margin-top: -120%;
+	margin-top: -80%;
 	margin-left: -109%;
 	color:#e96077;
 }
@@ -458,10 +458,122 @@ h1 {
 	margin-left: -90%;
 	color:#d1b42f;
 }
+
 /* ---------------------------- Media queries --------------------------*/
 
-/* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
+/* Small devices */
+@media (min-width:300px) and (max-width: 400px) { 
+
+	.fontTitle {
+		font-size: 48px;
+	}
+	.fontDetails {
+		margin-top: 140%;
+	}
+	#paajiChar {
+		margin-top: -600%;
+		margin-left: -90%;
+		font-size: 700px;
+	}
+	#banglaChar {
+		margin-top: -200%;
+		margin-left: -30%;
+		font-size: 700px;
+	}
+	#bhainaChar {
+		margin-top: -250%;
+		margin-left: -30%;
+		font-size: 700px;
+	}
+	#bhaiChar {
+		margin-top: -250%;
+		margin-left: -30%;
+		font-size: 700px;
+	}
+	#tammaChar {
+		margin-top: -250%;
+		margin-left: -30%;
+		font-size: 700px;
+	}
+	#chettanChar {
+		margin-top: -380%;
+		margin-left: -40%;
+		font-size: 900px;
+	}
+	#tammuduChar {
+		margin-top: -200%;
+		margin-left: -20%;
+		font-size: 700px;
+	}
+	#thambiChar {
+		margin-top: -250%;
+		margin-left: -30%;
+		font-size: 600px;
+	}
+	#hindiChar {
+		margin-top: -300%;
+		margin-left: -30%;
+		font-size: 700px;
+	}
+	.paaji {
+		margin-left:22%;
+		margin-top:60%;
+	}	
+	.bhaina {
+		margin-left:22%;
+		margin-top:60%;
+	}
+	.bhai {
+		margin-left:22%;
+		margin-top:60%;
+	}
+	.hindi {
+		margin-left:10%;
+		margin-top:60%;
+	}
+	.thambi {
+		margin-left:12%;
+		margin-top:60%;
+	}
+	.tammudu {
+		margin-left:-6%;
+		margin-top:60%;
+		text-align: center;
+	}
+	.tamma {
+		margin-left:5%;
+		margin-top:60%;
+	}
+	.bangla {
+		margin-left:22%;
+		margin-top:60%;
+	}
+	.chettan {
+		margin-left:14%;
+		margin-top:60%;
+	}
+	#hLine {
+		margin-top: 30%;
+		margin-left: -3%;
+	}
+	#vLine {
+		min-width: 3%;
+		margin-left: 0%;
+	}
+	#hLine2 {
+		margin-top: -30%;
+	}
+
+	#hLine3 {
+		margin-top: -5%;
+	}
+	#balooDownload {
+		margin-top:15%;
+	}
+}
+
+/* Medium devices */
+@media (min-width:700px) and (max-width: 900px) { 
 	.fontDetails {
 		margin-top:40%;
 	}
@@ -523,13 +635,13 @@ h1 {
 		margin-left: 5%;
 	}
 	.tamma {
-		margin-left: 22%;
+		margin-left: 17%;
 	}
 	.bangla {
 		margin-left: 25%;
 	}
 	#hLine {
-		margin-top: 21.5%;
+		margin-top: 21%;
 	}
 	#vLine {
 		min-width: 1.5%;
@@ -544,14 +656,111 @@ h1 {
 	}
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (max-width:1920px) { 
+@media (min-width:920px) and (max-width: 1100px) { 
 	#hLine {
-		margin-top: 15%;
+		margin-top: 19%;
 	} 
+	#vLine {
+		min-width: 1%;
+		margin-left: 38%;
+	}
+	#hLine2 {
+		margin-top: -15%;
+	}
+	#hLine3 {
+		margin-top: 2%;
+	}
+	.fontDetails {
+		margin-top:40%;
+	}
+	#paajiChar {
+		margin-top: -40%;
+		margin-left: -10%;
+	}
+	#banglaChar {
+		margin-top: -20%;
+		margin-left: 1%;
+	}
+	#bhainaChar {
+		margin-top: -30%;
+		margin-left: -10%;
+	}
+	#bhaiChar {
+		margin-top: -20%;
+		margin-left: -5%;
+	}
+	#tammaChar {
+		margin-top: -40%;
+		margin-left: 1%;
+	}
+	#chettanChar {
+		margin-top: -60%;
+		margin-left: 1%;
+	}
+	#tammuduChar {
+		margin-top: -40%;
+		margin-left: -15%;
+	}
+	#thambiChar {
+		margin-top: -50%;
+		margin-left: -15%;
+	}
+	#hindiChar {
+		margin-top: -40%;
+		margin-left: -15%;
+	}
+	.paaji {
+		margin-left:25%;
+	}	
+	.tamma {
+		margin-left:12%;
+	}
+	.bhaina {
+		margin-left:22%;
+	}
+	.bhai {
+		margin-left:25%;
+	}
+	.hindi {
+		margin-left: 22%;
+	}
+	.thambi {
+		margin-left: 22%;
+	}
+	.tammudu {
+		margin-left: 5%;
+	}
+	.tamma {
+		margin-left: 17%;
+	}
+	.bangla {
+		margin-left: 20%;
+	}
+	.chettan {
+		margin-left: 18%;
+	}
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
 
+/* Large devices */
+
+@media (min-width:1200px) and (max-width: 1900p) { 
+	#hLine {
+		margin-top: 17%;
+	} 
+	#vLine {
+		min-width: 1%;
+		margin-left: 38%;
+	}
 }
+
+@media (min-width:1920px) { 
+	#hLine {
+		margin-top: 14.7%;
+	} 
+	#vLine {
+		min-width: 0.8%;
+		margin-left: 38%;
+	}
+}
+
